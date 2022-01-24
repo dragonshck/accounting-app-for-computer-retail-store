@@ -1,0 +1,64 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/CardViewzTRXBarang"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/namaBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tanggalTransaksiBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hargaBeliBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/vendorBeliBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_gravity="end">
+
+        <TextView
+            android:id="@+id/QuantityBarang"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/darkblue"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:text="00"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

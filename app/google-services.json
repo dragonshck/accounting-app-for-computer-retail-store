@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "460474251680",
+    "project_id": "menagerie-8e906",
+    "storage_bucket": "menagerie-8e906.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460474251680:android:95c1ead69dca9505648cc5",
+        "android_client_info": {
+          "package_name": "com.example.menagerie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460474251680-f9ml5en6qa09trqlcvs9fs6ir8q7h8a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWRmH2niSs0blqd6nNqJCX186nxmmnmo8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460474251680-f9ml5en6qa09trqlcvs9fs6ir8q7h8a5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

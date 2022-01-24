@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <Button
+        android:id="@+id/tanggal_transaksi"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Pilih tanggal transaksi"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        style="?android:spinnerStyle"
+        android:layout_marginTop="10dp"
+        android:onClick="openDatePicker"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Vendor"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinnerVendor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Akun Pengeluaran (Debit)"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinnerAccPengeluaran"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Metode Pembayaran (Kredit)"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:id="@+id/spinnerMethPembayaran"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+         <EditText
+            android:id="@+id/namaTransaksi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:layout_marginTop="10dp"
+            android:hint="Nama Transaksi"
+            android:singleLine="true" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/hargaTransaksi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Harga"
+            android:inputType="textMultiLine" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

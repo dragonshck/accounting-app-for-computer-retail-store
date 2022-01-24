@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Menagerie/app/src/main/res/drawable/button.xml" value="0.22552083333333334" />
+        <entry key="..\:/Menagerie/app/src/main/res/drawable/forget.xml" value="0.22552083333333334" />
+        <entry key="..\:/Menagerie/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.22552083333333334" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_dash_laporan.xml" value="0.1816123188405797" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_dashboard.xml" value="0.22" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_expenses.xml" value="0.19701086956521738" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_jurnal_umum.xml" value="0.25" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_login.xml" value="0.17481884057971014" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_master_akun.xml" value="0.1956521739130435" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_master_barang.xml" value="0.19519927536231885" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_master_brg.xml" value="0.1911231884057971" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_master_item.xml" value="0.16530797101449277" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_master_peralatan.xml" value="0.18432971014492755" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_master_perlengkapan.xml" value="0.19701086956521738" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_masterbarang.xml" value="0.18704710144927536" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_mastertransaksi.xml" value="0.20108695652173914" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_neraca_saldo.xml" value="0.33" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_pelunasantrx.xml" value="0.20833333333333334" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_reccuring.xml" value="0.17527173913043478" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_register.xml" value="0.17481884057971014" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_tagih.xml" value="0.17028985507246377" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_trxactivity.xml" value="0.17028985507246377" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_vendors.xml" value="0.22" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/activity_yikes.xml" value="0.1911231884057971" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/dialog_tambah_akun.xml" value="0.19157608695652173" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/item_akun.xml" value="0.20108695652173914" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/item_biayait.xml" value="0.1634963768115942" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/item_data.xml" value="0.16530797101449277" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/item_hutang.xml" value="0.20989583333333334" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/item_jurnalumum.xml" value="0.33" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/item_kas.xml" value="0.25" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/item_nspengeluaran.xml" value="0.17346014492753623" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/item_pengeluaranperalatan.xml" value="0.17346014492753623" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/item_peralatan.xml" value="0.25" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/item_perlengkapan.xml" value="0.19701086956521738" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/item_total.xml" value="0.33" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/item_transaksi.xml" value="0.33" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/item_transaksibarang.xml" value="0.20108695652173914" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/item_vendor.xml" value="0.16394927536231885" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/layout_edit_barang.xml" value="0.209375" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/layout_edit_peralatan.xml" value="0.18432971014492755" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/layout_edit_perlengkapan.xml" value="0.19701086956521738" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/layout_master_item.xml" value="0.2" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/layout_master_tagihan.xml" value="0.18704710144927536" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/layout_master_transaksi.xml" value="0.25" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/layout_pembelian_barang.xml" value="0.20108695652173914" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/layout_spinner.xml" value="0.1875" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/layout_tambah_akun.xml" value="0.20108695652173914" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/layout_tambah_vendors.xml" value="0.16893115942028986" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/list_akun.xml" value="0.1875" />
+        <entry key="..\:/Menagerie/app/src/main/res/layout/spinner_akun.xml" value="0.19701086956521738" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

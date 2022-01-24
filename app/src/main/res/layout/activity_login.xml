@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/darkblue"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/intro"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:fontFamily="@font/pricedown"
+        android:textColor="@color/brightyellow"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get over here!"
+        android:textColor="@color/brightyellow"
+        android:textStyle="bold"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/loginuname"
+        android:inputType="text"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/forget"
+        android:paddingLeft="20dp"
+        android:hint="USERNAME"
+        android:textColorHint="@color/brightyellow"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/loginpass"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/forget"
+        android:paddingLeft="20dp"
+        android:hint="PASSWORD"
+        android:textColorHint="@color/brightyellow"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/logingoh"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="LOGIN"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?"
+            android:textColor="@color/brightyellow"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerNow"
+            android:text="Register Now!"
+            android:textStyle="bold"
+            android:textColor="@color/brightyellow"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
